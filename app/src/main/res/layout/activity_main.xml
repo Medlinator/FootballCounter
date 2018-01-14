@@ -4,9 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/football_image" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -37,48 +45,52 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addSixForTeamA"
-                android:text="Touchdown" />
+                android:text="Touchdown"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOneForTeamA"
-                android:text="Extra Point" />
+                android:text="Extra Point"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamA"
-                android:text="Two-Point Conversion" />
+                android:text="Two-Point Conversion"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForTeamA"
-                android:text="Field Goal" />
+                android:text="Field Goal"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginBottom="8dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamA"
-                android:text="Safety" />
+                android:text="Safety"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <View
@@ -115,48 +127,52 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addSixForTeamB"
-                android:text="Touchdown" />
+                android:text="Touchdown"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOneForTeamB"
-                android:text="Extra Point" />
+                android:text="Extra Point"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamB"
-                android:text="Two-Point Conversion" />
+                android:text="Two-Point Conversion"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForTeamB"
-                android:text="Field Goal" />
+                android:text="Field Goal"
+                android:textSize="12sp" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginBottom="8dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamB"
-                android:text="Safety" />
+                android:text="Safety"
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -165,6 +181,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
         android:onClick="resetScore"
         android:text="Reset" />
 </RelativeLayout>
