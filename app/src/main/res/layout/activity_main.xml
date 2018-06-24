@@ -10,19 +10,19 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/football_image"
-            android:id="@+id/imageView2" />
+            android:src="@drawable/football_image" />
 
         <LinearLayout
+            android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:orientation="horizontal"
-            android:id="@+id/linearLayout2">
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center"
-                    android:text=""
+                    android:text="0"
                     android:textColor="#000000"
                     android:textSize="56sp" />
 
